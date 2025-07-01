@@ -1,1 +1,1 @@
-- [ ] [Math Operators](MathOperators/README.md)
+- [ ] [Math Operators](MathOperators/)

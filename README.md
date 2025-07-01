@@ -1,1 +1,1 @@
-- [ ] [Python basics](PythonBasics/README.md)
+- [ ] [Python basics](PythonBasics/)
