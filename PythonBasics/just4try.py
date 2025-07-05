@@ -25,3 +25,28 @@ print('the','sep','keyword')
 # with sep
 print('the','sep','keyword', sep=',')
 #the,sep,keyword
+
+# print(type(input("s : ")))
+
+# num = int(input("enter number :"))
+# while num != 0:
+#     if num == 1 :
+#         print(1)
+    
+#     elif num == 2 : 
+#         print(2)  
+    
+#     else :
+#         print(3)
+    
+#     num = int(input("enter number :"))
+    
+    
+    
+num = 1
+if num == 1 :
+    print(num) # 1
+elif num == 2 :
+    print(num)
+else:
+    print(num)

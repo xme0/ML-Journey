@@ -55,3 +55,14 @@ print('the','sep','keyword')
 print('the','sep','keyword', sep=',')
 #the,sep,keyword
 ```
+## Control Flow
+###  If/Else
+```python
+num = 1
+if num == 1 :
+    print(num) # 1
+elif num == 2 :
+    print(num)
+else:
+    print(num)
+```
