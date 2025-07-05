@@ -29,7 +29,7 @@ print('the','sep','keyword', sep=',')
 # print(type(input("s : ")))
 
 # num = int(input("enter number :"))
-# while num != 0:
+# while num in range(1,4):
 #     if num == 1 :
 #         print(1)
     
@@ -43,18 +43,44 @@ print('the','sep','keyword', sep=',')
     
     
     
-num = 1
-if num == 1 :
-    print(num) # 1
-elif num == 2 :
-    print(num)
-else:
-    print(num)
-num = 1 
-match num:
-    case 1:
-       print(num) 
-    case 2 :
-        print(num)
-    case _:#default case
-        print(num)
+# num = 1
+# if num == 1 :
+#     print(num) # 1
+# elif num == 2 :
+#     print(num)
+# else:
+#     print(num)
+# num = 1 
+# match num:
+#     case 1:
+#        print(num) 
+#     case 2 :
+#         print(num)
+#     case _:#default case
+#         print(num)
+
+
+
+
+names = ['Lois Griffin','Peter Griffin','Stewie Griffin']
+# index        0       ,       1       ,       2
+print(names[0])#Lois Griffin
+print(names[1])#Peter Griffin
+print(names[2])#Stewie Griffin
+# print(names[3])  error
+print(names[-1])#Stewie Griffin
+print(names[-2])#Peter Griffin
+print(names[-3])#Lois Griffin
+#print(names[-4]) error
+
+print(names[0:3])#['Lois Griffin', 'Peter Griffin', 'Stewie Griffin']
+print(names[2:3])#['Stewie Griffin']
+print(names[0:-1])#['Lois Griffin', 'Peter Griffin']
+print(names[:2])#['Lois Griffin', 'Peter Griffin']
+print(names[1:])#['Peter Griffin', 'Stewie Griffin']
+print(names[:])#['Lois Griffin', 'Peter Griffin', 'Stewie Griffin']
+
+print(len(names))#3
+
+# add
+names.append("Brian Griffin")
