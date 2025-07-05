@@ -50,3 +50,11 @@ elif num == 2 :
     print(num)
 else:
     print(num)
+num = 1 
+match num:
+    case 1:
+       print(num) 
+    case 2 :
+        print(num)
+    case _:#default case
+        print(num)

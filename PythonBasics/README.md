@@ -66,3 +66,18 @@ elif num == 2 :
 else:
     print(num)
 ```
+### Switch-Case 
+```python
+num = 1 
+match num:
+    case 1:
+       print(num) 
+    case 2 :
+        print(num)
+    case _:#default case
+        print(num)
+```
+### While Loop
+```python
+
+```
